@@ -1,0 +1,40 @@
+img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.menu.open {
+    width: 200px;
+    height: 350px;
+}
+
+.menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 40px;
+    left: 5px;
+    background-color: lightgoldenrodyellow;
+    overflow: hidden;
+    border-radius: 20px;
+    padding-top: 10px;
+
+}
+
+.menu li {
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    color:black;
+    display: flex;
+    
+}
+
+.menu li:hover {
+    color: grey;
+    cursor: pointer;
+}
+
